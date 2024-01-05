@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <StartupObject>Day1Project.Switch</StartupObject>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="NumericFunctions">
+      <HintPath>..\..\..\CommonFunctions\NumericFunctions\bin\Debug\net6.0\NumericFunctions.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
